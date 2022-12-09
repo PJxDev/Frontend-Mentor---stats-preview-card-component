@@ -12,8 +12,8 @@ function Main() {
           />
          */}
           <h1 className="text-xl | font-bold | text-center | px-16">
-            Get <i className="text-softViolet | not-italic | text">insights</i>{' '}
-            that help your business grow.
+            Get <i className="text-softViolet | not-italic ">insights</i> that
+            help your business grow.
           </h1>
         </header>
         <p className="font-lexend | text-center | px-6">
