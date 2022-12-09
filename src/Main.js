@@ -1,16 +1,15 @@
 import React from 'react';
+import ImageHeaderDesktop from './images/image-header-mobile.jpg';
 
 function Main() {
   return (
     <div className="bg-veryDarkBlue | flex | justify-center | items-center | h-screen">
       <article className="relative | font-inter | text-white | text-[15px] | bg-darkDesaturatedBlue | flex | flex-col | gap-4 | justify-between | items-center | max-w-xs | min-h-4/5 | rounded-lg | overflow-hidden">
         <header className="flex | flex-col | gap-6 ">
-          {/*
-         <img
+          <img
             src={ImageHeaderDesktop}
             alt="Group of women working together with laptops"
           />
-         */}
           <h1 className="text-xl | font-bold | text-center | px-16">
             Get <i className="text-softViolet | not-italic ">insights</i> that
             help your business grow.
