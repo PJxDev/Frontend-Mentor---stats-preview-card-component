@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageHeaderDesktop from './images/image-header-mobile.jpg';
 
 function Main() {
   return (
@@ -7,7 +6,7 @@ function Main() {
       <article className="relative | font-inter | text-white | text-[15px] | bg-darkDesaturatedBlue | flex | flex-col | gap-4 | justify-between | items-center | max-w-xs | min-h-4/5 | rounded-lg | overflow-hidden">
         <header className="flex | flex-col | gap-6 ">
           <img
-            src={ImageHeaderDesktop}
+            src="./images/image-header-mobile.jpg"
             alt="Group of women working together with laptops"
           />
           <h1 className="text-xl | font-bold | text-center | px-16">
