@@ -5,10 +5,12 @@ function Main() {
     <div className="bg-veryDarkBlue | flex | justify-center | items-center | h-screen">
       <article className="relative | font-inter | text-white | text-[15px] | bg-darkDesaturatedBlue | flex | flex-col | gap-4 | justify-between | items-center | max-w-xs | min-h-4/5 | rounded-lg | overflow-hidden">
         <header className="flex | flex-col | gap-6 ">
-          <img
-            src="./images/image-header-mobile.jpg"
-            alt="Group of women working together with laptops"
-          />
+          <picture className="after:content[''] after:absolute after:bg-orange-300 after:inset-0 after:w-full after:h-full">
+            <img
+              src="https://raw.githubusercontent.com/PJxDev/stats-preview-card-component/master/src/images/image-header-mobile.jpg"
+              alt="Group of women working together with laptops"
+            />
+          </picture>
           <h1 className="text-xl | font-bold | text-center | px-16">
             Get <i className="text-softViolet | not-italic ">insights</i> that
             help your business grow.
